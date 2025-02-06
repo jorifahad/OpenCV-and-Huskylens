@@ -1,26 +1,28 @@
 🏆 Face & Color Recognition using Huskylens & OpenCV
-📌 Overview
+---
+
+📌 **Overview**
 This repository contains two implementations of AI-based recognition:
 
-Huskylens with Arduino
+**Huskylens with Arduino**
 Face Recognition – Detects and identifies faces using Huskylens AI camera.
 OpenCV with Python
 Color Recognition – Detects and labels colors in uploaded images.
 
-
-------------------------
-🚀 Project 1: Face Recognition using Huskylens (Arduino)
+---
+🚀 **Project 1: Face Recognition using Huskylens (Arduino)**
 📌 Requirements
-🛠️ Hardware:
+🛠️ **Hardware:**
 Huskylens AI Camera
 Arduino Uno (or compatible board)
 Jumper wires (for I2C connection)
-💾 Software:
+💾 **Software:**
 Arduino IDE
 Huskylens Library (install via Library Manager)
 
-----------------------
-How Face Recognition Works?
+---
+
+**How Face Recognition Works?**
 Huskylens detects a face and assigns it a unique Face ID.
 The Face ID is stored and used for recognition.
 When the same face is detected, it retrieves the stored ID.
@@ -28,10 +30,10 @@ You can assign custom names to specific Face IDs for easier identification.
 🖼️ Huskylens Output
 ![image](https://github.com/user-attachments/assets/23136424-25ff-44bb-adba-d44bf3b9a1bd)
 
----------------------
-🎯 Project 2: Color Recognition using OpenCV (Python)
+---
+🎯 **Project 2: Color Recognition using OpenCV (Python)**
 📌 Requirements
-💻 Software:
+💻**Software:**
 Python 3.x
 OpenCV
 NumPy
@@ -44,8 +46,8 @@ Displays the processed image with color names.
 🖼️ OpenCV Color Recognition Output
 
 ![image](https://github.com/user-attachments/assets/288e0e9b-b940-4233-9f84-f8c3a5213a3f)
-
-🛠️ Troubleshooting
+---
+🛠️ **Troubleshooting**
 🔹 Huskylens Issues
 Ensure Huskylens is properly wired and trained for recognition.
 Verify that Huskylens is in the correct Face Recognition Mode.
